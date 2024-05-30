@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.VSULesson11" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="materialButtonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <style name="Theme.VSULesson11" parent="Base.Theme.VSULesson11" />
+</resources>

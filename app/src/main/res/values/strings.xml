@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VSULesson11</string>
+    <string name="activity_btn_text">Клик</string>
+    <string name="checkbox_text">Пример текста</string>
+</resources>
