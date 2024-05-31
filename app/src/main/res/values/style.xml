@@ -7,4 +7,9 @@
         <item name="android:padding">16dp</item>
         <item name="android:textSize">16sp</item>
     </style>
+
+    <style name="CustomCheckBoxStyle" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
 </resources>

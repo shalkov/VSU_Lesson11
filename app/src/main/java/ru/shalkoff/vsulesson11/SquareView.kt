@@ -14,7 +14,12 @@ class SquareView @JvmOverloads constructor(
 ) : View(context, attrs, defStyleAttr) {
 
     private val paint = Paint()
-    private val squareColor = Color.RED
+    private var squareColor = Color.RED
+
+    fun changeColorToBlue() {
+        squareColor = Color.BLUE
+        invalidate()
+    }
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)

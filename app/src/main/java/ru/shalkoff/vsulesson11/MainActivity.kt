@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
         val squareView: SquareView = findViewById(R.id.square_view)
         findViewById<Button>(R.id.activity_btn).setOnClickListener {
-            // TODO
+            squareView.invalidate()
         }
     }
 }
